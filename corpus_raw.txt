@@ -1,0 +1,19 @@
+Deep Learning has evolved from Artificial Neural Networks, which has been
+there since the 1940s. Neural Networks are interconnected networks of processing units
+called artificial neurons that loosely mimic axons in a biological brain. In a biological
+neuron, the dendrites receive input signals from various neighboring neurons, typically
+greater than 1000. These modified signals are then passed on to the cell body or soma of
+the neuron, where these signals are summed together and then passed on to the axon of the
+neuron. If the received input signal is more than a specified threshold, the axon will
+release a signal which again will pass on to neighboring dendrites of other neurons. Figure
+2-1 depicts the structure of a biological neuron for reference. The artificial neuron units
+are inspired by the biological neurons with some modifications as per convenience. Much
+like the dendrites, the input connections to the neuron carry the attenuated or amplified
+input signals from other neighboring neurons. The signals are passed on to the neuron, where
+the input signals are summed up and then a decision is taken what to output based on the
+total input received. For instance, for a binary threshold neuron an output value of 1 is
+provided when the total input exceeds a pre-defined threshold; otherwise, the output stays
+at 0. Several other types of neurons are used in artificial neural networks, and their
+implementation only differs with respect to the activation function on the total input to
+produce the neuron output. In Figure 2-2 the different biological equivalents are tagged in
+the artificial neuron for easy analogy and interpretation.
